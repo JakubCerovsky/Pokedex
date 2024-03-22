@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Pokedex/static/css/main.94e0f876.css",
-    "main.js": "/Pokedex/static/js/main.bd02c66f.js",
-    "static/media/background.jpg": "/Pokedex/static/media/background.c61254b30a05362aecb2.jpg",
-    "static/media/bug.svg": "/Pokedex/static/media/bug.9eb396226ab73b934ecf.svg",
-    "static/media/fire.svg": "/Pokedex/static/media/fire.56a1cb2463a602584a61.svg",
-    "static/media/normal.svg": "/Pokedex/static/media/normal.43c25de3df07e64c7583.svg",
-    "static/media/poison.svg": "/Pokedex/static/media/poison.a75f778240c969a583ee.svg",
-    "static/media/grass.svg": "/Pokedex/static/media/grass.2c66fca79950c9de8585.svg",
-    "static/media/water.svg": "/Pokedex/static/media/water.78f0e26afe7c2ad99cf8.svg",
-    "index.html": "/Pokedex/index.html",
-    "main.94e0f876.css.map": "/Pokedex/static/css/main.94e0f876.css.map",
-    "main.bd02c66f.js.map": "/Pokedex/static/js/main.bd02c66f.js.map"
+    "main.css": "/pokedex/static/css/main.7fbf0bff.css",
+    "main.js": "/pokedex/static/js/main.bd02c66f.js",
+    "static/media/background.jpg": "/pokedex/static/media/background.c61254b30a05362aecb2.jpg",
+    "static/media/bug.svg": "/pokedex/static/media/bug.9eb396226ab73b934ecf.svg",
+    "static/media/fire.svg": "/pokedex/static/media/fire.56a1cb2463a602584a61.svg",
+    "static/media/normal.svg": "/pokedex/static/media/normal.43c25de3df07e64c7583.svg",
+    "static/media/poison.svg": "/pokedex/static/media/poison.a75f778240c969a583ee.svg",
+    "static/media/grass.svg": "/pokedex/static/media/grass.2c66fca79950c9de8585.svg",
+    "static/media/water.svg": "/pokedex/static/media/water.78f0e26afe7c2ad99cf8.svg",
+    "index.html": "/pokedex/index.html",
+    "main.7fbf0bff.css.map": "/pokedex/static/css/main.7fbf0bff.css.map",
+    "main.bd02c66f.js.map": "/pokedex/static/js/main.bd02c66f.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e0f876.css",
+    "static/css/main.7fbf0bff.css",
     "static/js/main.bd02c66f.js"
   ]
 }
