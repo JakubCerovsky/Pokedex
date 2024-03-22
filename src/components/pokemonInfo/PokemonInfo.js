@@ -1,5 +1,4 @@
 import "./pokemonInfo.css";
-import "../pokecard/pokecard.css";
 
 export default function PokemonInfo({ pokemon }) {
   return (
