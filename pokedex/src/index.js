@@ -2,20 +2,26 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { RouterProvider, createHashRouter } from "react-router-dom";
-import { Pokemon, Pokemons, About } from "./pages/index";
+import { Pokemon, Pokemons, About, App } from "./pages";
 
 const router = createHashRouter([
   {
     path: "/",
-    element: <Pokemons />,
-  },
-  {
-    path: "/pokemons/:id",
-    element: <Pokemon />,
-  },
-  {
-    path: "/about",
-    element: <About />,
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Pokemons />,
+      },
+      {
+        path: "/:id",
+        element: <Pokemon />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+    ],
   },
 ]);
 

@@ -1,0 +1,27 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.navbar-container_logo {
+  width: 100px;
+  max-width: 30%;
+  margin: 0 2rem;
+  border-radius: 100%;
+}
+
+.navbar-container_link {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  transition: 1s;
+}
+
+.navbar-container_link:hover {
+  color: var(--color-blue);
+  border-bottom: 3px solid var(--color-yellow);
+}

@@ -1,13 +1,34 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 1.2px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-blue: blue;
+  --color-yellow: yellow;
+  --box-border: 5px solid var(--color-yellow);
+}
+
+body {
+  background-image: url("/public/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-yellow);
 }

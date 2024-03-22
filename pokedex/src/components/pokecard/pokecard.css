@@ -1,0 +1,80 @@
+.card-container {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 21%;
+  aspect-ratio: 3/4;
+  margin-bottom: 3rem;
+  border-radius: 20px;
+  border: var(--box-border);
+  box-shadow: 0 0 10px 0 black;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.5s;
+}
+
+.card-container:hover {
+  transform: rotate3d(1, 2, 3, 10deg);
+}
+
+.normal {
+  background-image: url("/public/assets/backgrounds/normal.svg");
+}
+
+.fairy,
+.unknown {
+  background-color: pink;
+}
+
+.water {
+  background-image: url("/public/assets/backgrounds/water.svg");
+  color: white;
+}
+
+.fire {
+  background-image: url("/public/assets/backgrounds/fire.svg");
+}
+
+.electric {
+  background-color: yellow;
+}
+
+.shadow,
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.ghost,
+.rock,
+.steel {
+  background-color: gray;
+}
+
+.poison,
+.psychic {
+  background-image: url("/public/assets/backgrounds/poison.svg");
+  color: white;
+}
+
+.grass {
+  background-image: url("/public/assets/backgrounds/grass.svg");
+}
+
+.bug {
+  background-image: url("/public/assets/backgrounds/bug.svg");
+}
+
+.dragon,
+.fighting,
+.ground {
+  background-color: brown;
+}
+
+.flying,
+.ice {
+  background-color: aqua;
+}
