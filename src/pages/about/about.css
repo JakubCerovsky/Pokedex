@@ -5,6 +5,7 @@
 
 .about-container_heading {
   -webkit-text-stroke: 1px var(--color-blue);
+  font-size: 42px;
   color: var(--color-yellow);
 }
 

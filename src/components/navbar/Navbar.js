@@ -8,7 +8,7 @@ export default function Navbar() {
         Pokédex
       </Link>
       <img
-        src="./assets/pokedex_logo.png"
+        src="/assets/pokedex_logo.png"
         alt="Pokedex Logo"
         className="navbar-container_logo"
       />

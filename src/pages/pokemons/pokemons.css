@@ -46,3 +46,9 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+@media only screen and (max-width: 505px) {
+  .pokemons-container_pokecards {
+    justify-content: center;
+  }
+}

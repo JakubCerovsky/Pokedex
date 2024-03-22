@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   width: 21%;
+  min-width: 200px;
   aspect-ratio: 3/4;
   margin-bottom: 3rem;
   border-radius: 20px;
