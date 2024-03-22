@@ -1,0 +1,29 @@
+.pokemon_info-container {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  border: var(--box-border);
+  width: 40%;
+  min-width: 300px;
+}
+
+.pokemon_info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.pokemon_info-item {
+  padding: 5px;
+}
+
+.pokemon_info-item p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .pokemon_info-grid {
+    grid-template-columns: 1fr;
+  }
+}

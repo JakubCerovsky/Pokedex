@@ -5,9 +5,9 @@ import "./pokecard.css";
 export default function Pokecard({ pokemonName }) {
   const [pokemon, setPokemon] = useState({ id: 0, image: "", type: "" });
 
-  useEffect(() => {
-    const apiEndpoint = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`;
+  const apiEndpoint = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`;
 
+  useEffect(() => {
     fetch(apiEndpoint)
       .then((response) => {
         if (!response.ok) {
@@ -25,7 +25,7 @@ export default function Pokecard({ pokemonName }) {
       .catch((error) => {
         console.error("There was a problem fetching the data:", error);
       });
-  }, [pokemonName]);
+  }, [apiEndpoint]);
 
   return (
     <Link to={`/${pokemon.id}`} className={`card-container ${pokemon.type}`}>

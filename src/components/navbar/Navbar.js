@@ -7,11 +7,12 @@ export default function Navbar() {
       <Link to="/" className="navbar-container_link">
         Pokédex
       </Link>
-      <img
-        src={process.env.PUBLIC_URL + "/assets/pokedex_logo.png"}
-        alt="Pokedex Logo"
-        className="navbar-container_logo"
-      />
+      <a href="https://pokeapi.co/" className="navbar-container_logo">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/pokedex_logo.png"}
+          alt="Pokedex Logo"
+        />
+      </a>
       <Link to="/about" className="navbar-container_link">
         About
       </Link>

@@ -1,0 +1,26 @@
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.pokemon-container_image-container {
+  width: 30%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-container_image {
+  width: 100%;
+}
+
+.pokemon-shadow {
+  width: 40%;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 -70px 20px rgba(0, 0, 0);
+}

@@ -19,6 +19,8 @@ body {
   background-image: url("/public/assets/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 ::-webkit-scrollbar {

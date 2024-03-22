@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import { RouterProvider, createHashRouter } from "react-router-dom";
 import { Pokemon, Pokemons, About, App } from "./pages";
+import "./index.css";
 
 const router = createHashRouter([
   {
@@ -14,7 +14,7 @@ const router = createHashRouter([
         element: <Pokemons />,
       },
       {
-        path: "/:id",
+        path: "/:name",
         element: <Pokemon />,
       },
       {
