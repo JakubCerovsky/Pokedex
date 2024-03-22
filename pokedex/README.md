@@ -8,4 +8,4 @@
 
 ## Deployment
 
-The Pokédex React App is deployed on GitHub Pages. You can access it [here](https://your-github-username.github.io/pokedex-react).
+The Pokédex React App is deployed on GitHub Pages. You can access it [here](https://jakubcerovsky.github.io/Pokedex/).
