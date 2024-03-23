@@ -28,9 +28,14 @@ export default function Pokecard({ pokemonName }) {
   }, [apiEndpoint]);
 
   return (
-    <Link to={`/${pokemon.id}`} className={`card-container ${pokemon.type}`}>
-      <img src={pokemon.image} alt="Pokemon" />
-      {pokemonName}
-    </Link>
+    <div className="card-container">
+      <Link
+        to={`/${pokemon.id}`}
+        className={`card-container_front ${pokemon.type}`}
+      >
+        <img src={pokemon.image} alt="Pokemon" />
+        {pokemonName}
+      </Link>
+    </div>
   );
 }
